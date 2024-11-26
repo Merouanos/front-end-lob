@@ -1,0 +1,148 @@
+    /*initilize */
+
+
+
+:root{
+    --headlines:#333;
+    --special:#04ddb2;
+    --main_background:white;
+    --main_text:#767676;
+
+
+
+}
+
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type:none;
+    text-decoration: none;
+    color: var(--main_text);
+}
+
+body{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: normal;
+    
+}
+
+
+
+
+
+
+
+/* repeted style*/
+.container{
+    width: 70%;
+    margin-inline:auto;
+    padding-top: 2rem;
+}
+.column
+{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   text-align: center;
+   gap: 2em;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.strong{
+    color:var(--headlines);
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+.short{
+    color: var(--headlines);
+    font-weight:bold;
+    font-size: 1.5rem;
+}
+
+
+span{
+    color: var(--special);
+}
+
+button{
+    background-color: var(--special);
+    border-radius: 2em;
+    padding:1em 2em;
+    color: white;
+    border: none;
+    font-weight: bold;
+   
+}
+ 
+button:hover{
+    background-color: #05ad8b;
+    cursor: pointer;
+}
+
+a:hover{
+    color: black;
+    cursor: pointer;
+}
+img{
+    width: 2em;
+}
+p{
+    color: black;
+    font-size: 1.2rem;
+
+}
+.title{
+    width: 40%;
+    gap: 2em;
+    
+    
+}
+h1
+{
+    font-size: 10rem;
+}
+
+i
+{
+    background-color: var(--special);
+    border-radius: 50%;
+    color: white;
+   
+    
+}
+
+/*main*/
+
+header{
+    width: 80%;
+    margin:1em auto 4em;
+   
+}
+nav{
+    width: 40%;
+   
+}
+
+.vid img{
+    width: 45rem;
+    margin-left: 5em;
+}
+
+footer{
+    margin-top: 10rem;
+    
+}
+footer .container{
+    border-top: solid var(--main_text) 1px;
+}
+
+
+
+
