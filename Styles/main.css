@@ -167,3 +167,14 @@ footer img{
 }
 
 
+
+
+
+
+
+@media (max-width:700px)
+{
+    html{
+        font-size: 10px;
+    }
+}
