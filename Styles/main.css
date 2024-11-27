@@ -52,6 +52,7 @@ body{
 .row{
     display: flex;
     justify-content: space-between;
+    align-items:center;
     
 }
 .strong{
@@ -92,6 +93,7 @@ a:hover{
 }
 img{
     width: 2em;
+    
 }
 p{
     color: black;
@@ -113,9 +115,18 @@ i
 {
     background-color: var(--special);
     border-radius: 50%;
-    color: white;
+   
+    padding: .5em;
+    text-align: center;
+    
    
     
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    gap: 1em;
 }
 
 /*main*/
@@ -123,6 +134,7 @@ i
 header{
     width: 80%;
     margin:1em auto 4em;
+    
    
 }
 nav{
@@ -136,13 +148,22 @@ nav{
 }
 
 footer{
-    margin-top: 10rem;
+    margin-block: 10rem 3rem;
     
 }
-footer .container{
+footer .container
+{
     border-top: solid var(--main_text) 1px;
 }
-
-
+footer .column{
+    align-items: flex-start;
+    
+}
+footer .column li{
+    height: 10%;
+}
+footer img{
+    width: 2rem;
+}
 
 
